@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090909;
+  opacity: 1;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #4d0b4f 25%,
+      transparent 25%,
+      transparent 75%,
+      #4d0b4f 75%,
+      #4d0b4f
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #4d0b4f 25%,
+      #090909 25%,
+      #090909 75%,
+      #4d0b4f 75%,
+      #4d0b4f
+    );
+  background-position: 0 0, 14px 14px;
+  background-size: 28px 28px;
+  background-position: 0 0, 8px 8px;
+  background-size: 16px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
